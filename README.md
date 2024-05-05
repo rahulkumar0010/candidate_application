@@ -1,8 +1,39 @@
-# React + Vite
+# Job Searching Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to our Job searching platform! This project is a template for kickstarting your React development using Vite, a blazing fast build tool.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get a local copy of this project up and running on your machine, follow these steps:
+
+### Prerequisites
+
+Make sure you have Node.js and npm (or yarn) installed on your machine.
+
+- Node.js - [Download & Install Node.js](https://nodejs.org)
+- npm (comes with Node.js) or yarn - [Install yarn](https://classic.yarnpkg.com/en/docs/install)
+
+### Installation
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/rahulkumar0010/candidate_application.git
+
+2. Navigate into the project directory:
+    cd candidate_application
+
+3. Install dependencies:
+  ```bash  
+  npm install
+    # or
+    yarn
+
+### Running Locally
+  To run the application locally, execute the following command:
+ ```bash  
+    npm run dev # or yarn dev
+
+### Building for Production
+npm run build
+# or
+yarn build
