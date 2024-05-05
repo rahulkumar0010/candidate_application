@@ -31,7 +31,8 @@ Make sure you have Node.js and npm (or yarn) installed on your machine.
 
 ### Running Locally
 To run the application locally, execute the following command:
-    npm run dev
+  ```bash
+  npm run dev
     # or
     yarn
 
