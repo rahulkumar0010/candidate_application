@@ -31,7 +31,10 @@ const JobList = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        setJobs([...jobs, ...data.jdList]);
+        const filteredData = data?.jdList.filter(obj =>
+          Object.values(obj).every(value => value !== null)
+        );
+        setJobs([...jobs, ...filteredData]);
         setLoading(false);
       })
       .catch((error) => {
@@ -66,7 +69,7 @@ const JobList = () => {
       <Filters onFilterChange={handleFilterChange} />
       <Grid container spacing={3}>
         {jobs.map((job) => (
-          <Grid item xs={12} sm={6} md={4} lg={3} key={job.id}>
+          <Grid item xs={12} sm={6} md={4} lg={3} key={job.jdUid}>
             <JobCard job={job} />
           </Grid>
         ))}
