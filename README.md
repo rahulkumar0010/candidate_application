@@ -20,20 +20,24 @@ Make sure you have Node.js and npm (or yarn) installed on your machine.
    git clone https://github.com/rahulkumar0010/candidate_application.git
 
 2. Navigate into the project directory:
-    cd candidate_application
+   ```bash
+   cd candidate_application
 
 3. Install dependencies:
-  ```bash  
-  npm install
+   ```bash
+    npm install
     # or
     yarn
 
 ### Running Locally
-  To run the application locally, execute the following command:
- ```bash  
-    npm run dev # or yarn dev
+To run the application locally, execute the following command:
+    npm install
+    # or
+    yarn
+
+
 
 ### Building for Production
-npm run build
-# or
-yarn build
+    npm run build
+    # or
+    yarn build
