@@ -10,7 +10,7 @@ const JobCard = ({ job }) => {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ width:"100%" }}>
       <CardContent>
         <div className="logo-container">
           <div className="logo-img-div">
